@@ -1,0 +1,21 @@
+{
+  "name": "seychellas-fce",
+  "version": "1.0.0",
+  "description": "SeyChellas Foreign Currency Exchange",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run system-test"
+  },
+  "author": "Venkatesh Segar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-favicon": "^2.0.1",
+    "firebase": "^5.8.0",
+    "firebase-admin": "^6.5.0"
+  }
+}
