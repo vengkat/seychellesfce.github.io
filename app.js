@@ -38,10 +38,6 @@ const app = express();
  app.set('view engine', 'ejs');
  app.set('views', path.join(__dirname, 'views'));
 
- 
-
- 
-
 //  firebase.initializeApp({
 //   credential: admin.credential.cert(serviceAccount),
 //   databaseURL: "https://seychelles-dev-env.firebaseio.com"
@@ -114,9 +110,9 @@ app.get('/TestPage', function (req, res) {
    res.render("TestPage");
 })
 
-app.get('/index', function (req, res) {
-    res.sendFile( __dirname + "/" + "index.html" );
- })
+// app.get('/index', function (req, res) {
+//     res.sendFile( __dirname + "/" + "index.html" );
+//  })
 
 //  app.get('/SignUp', function (req, res) {
 //    res.render("SignUp"); 

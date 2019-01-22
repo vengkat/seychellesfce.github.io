@@ -17,5 +17,14 @@
     "express-favicon": "^2.0.1",
     "firebase": "^5.8.0",
     "firebase-admin": "^6.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vengkat/seychellesfce.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vengkat/seychellesfce.github.io/issues"
+  },
+  "homepage": "https://github.com/vengkat/seychellesfce.github.io#readme"
 }
